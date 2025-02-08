@@ -35,7 +35,7 @@ elif option == 'Select from Sample':
         sample_images_path = SAMPLE_IMAGES_PATH + 'non_pneumonic'
 
     images = os.listdir(sample_images_path)
-    selected_image = st.selectbox('Select an Image', images, index=1)
+    selected_image = st.selectbox('Select an Image', images, index=0)
     image_path = sample_images_path + "/" + selected_image
 
     image = Image.open(image_path)

@@ -10,7 +10,7 @@ MODEL_PATH = "model/xray_model2.keras"
 SAMPLE_IMAGES_PATH = "sample_images/"
 
 # Sidebar for user input
-st.sidebar.title("Pneumonia Detection")
+st.sidebar.title("Pneumonia Detector")
 
 option = st.sidebar.radio("Upload or Select an Image", ('Upload', 'Select from Sample'))
 

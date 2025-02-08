@@ -2,6 +2,7 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' # Floating Result Precision
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # Suppress TensorFlow warnings
 import tensorflow as tf
+import cv2
 from tf_explain.core.grad_cam import GradCAM
 
 # Define image size

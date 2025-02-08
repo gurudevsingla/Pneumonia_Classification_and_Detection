@@ -73,5 +73,5 @@ if st.button('Predict'):
         col2.image(gradcam_output, use_column_width=True)
 
         st.markdown(
-            "<span style='color:#FFD700; font-size:22px;'>👀Reason - light (yellow) region of your image !!</span>",
+            "<span style='color:#FFD700; font-size:22px;'>👀Reason of my prediction - light (yellow) region of your image !!</span>",
             unsafe_allow_html=True)

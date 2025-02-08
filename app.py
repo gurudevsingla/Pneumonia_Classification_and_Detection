@@ -5,6 +5,9 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
+st.cache_data.clear()
+st.cache_resource.clear()
+
 # Define paths
 MODEL_PATH = "model/xray_model2.keras"
 SAMPLE_IMAGES_PATH = "sample_images/"

@@ -16,6 +16,9 @@ option = st.sidebar.radio("Upload or Select an Image", ('Upload', 'Select from S
 
 if option == 'Upload':
     uploaded_file = st.file_uploader("Upload an X-ray Image", type=["jpg", "jpeg"])
+    st.markdown(
+        "<span style='font-size:20px;'>If you don't have X-ray image then click on Select from Samples</span>",
+        unsafe_allow_html=True)
 
     if uploaded_file is not None:
         image = Image.open(uploaded_file)

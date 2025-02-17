@@ -84,3 +84,6 @@ Paper Link - https://arxiv.org/pdf/1610.02391
 
 - **Recall** : 0.971794843673706
 - **Precision**: 0.7734693884849548
+
+# Deployement on Streamlit
+Link - https://pneumonia-classification-and-detection.streamlit.app/

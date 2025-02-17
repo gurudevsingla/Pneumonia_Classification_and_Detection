@@ -1,23 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": []
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "source": [
-        "# Business Problem:\n",
+"# Business Problem:\n",
         "\n",
         "- Pneumonia is a serious transmittable disease in India, It is responsible for high morbidity and mortality amongst children under five year of age. India accounts for one-third of the total WHO South East Asia burden of under-five mortality. (source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6131850/).\n",
         "- Chest X-rays are currently the best available method for diagnosing it.\n",
